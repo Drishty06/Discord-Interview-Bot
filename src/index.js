@@ -1,3 +1,4 @@
+// https://discord.js.org/docs/packages/core/1.0.1
 require("dotenv").config();
 const token = process.env.DISCORDJS_BOT_TOKEN;
 const client_id = process.env.DISCORDJS_CLIENT_ID;
