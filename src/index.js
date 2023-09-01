@@ -30,6 +30,7 @@ const openai = new OpenAIApi(configuration);
 client.on("messageCreate", async function (message) {
   try {
     if (message.author.bot) return;
+    // to be done: update prompt for better response!!
 
     const gptResponse = await openai.createCompletion({
       model: "text-davinci-003",
